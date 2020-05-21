@@ -1,0 +1,46 @@
+{% extends "giris_app/base.html" %}
+{% block title %}
+    Üniversite Seçim Bilgilendirme Girisi
+{% endblock title %}
+{% block content %}
+
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-6"><center>Üniversite Seçim Bilgilendirme Girişi</center></h1>
+      
+      <div class="text-center">
+      
+    </div>
+    </div>
+  </div>
+
+  
+
+  <div class = "container">
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Üniversite Adı</th>
+        <th scope="col">Üniversitenin Bulunduğu Şehir</th>
+        <th scope="col">Üniversitenin Bulunduğu Ülke</th>
+        <th scope="col"> </th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for unvl in unv_list %}
+      <tr>
+        <td>{{unvl.adi}}</td>
+        <td>{{unvl.sehir}}</td>
+        <td>{{unvl.ulke}}</td>
+        <td><button type="button" class="btn btn-primary">Ayrıntı</button></td>
+      </tr>
+      {% endfor %}
+      
+    </tbody>
+  </table>
+</div>
+
+
+{% endblock content %}   
