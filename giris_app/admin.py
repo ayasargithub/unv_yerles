@@ -2,6 +2,7 @@ from django.contrib import admin
 from django.http import HttpResponse
 from .models import universite
 from import_export import resources
+
 from import_export.admin import ImportExportModelAdmin
 
 
