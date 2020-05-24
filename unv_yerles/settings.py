@@ -30,6 +30,7 @@ ALLOWED_HOSTS = ['127.0.0.1',
 'www.bendensendenondan.com',
 'bendensendenondan.com',
 'ayasarman.pythonanywhere.com',
+'kapella.pythonanywhere.com',
 '.pythonanywhere.com',
 ]
 
