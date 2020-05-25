@@ -4,5 +4,4 @@ __pycache__
 unvenv
 db.sqlite3
 /static
-/staticfiles
 .DS_Store
