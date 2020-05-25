@@ -14,8 +14,3 @@ def unv_yerles_giris(request):
     unv_list = universite.objects.all()
     return render(request,"giris_app/unv_yerles_giris.html", {'unv_list':unv_list}) 
 
-
-def logout_view(request):
-  
-    logout(request)
-    # Redirect to a success page.      
