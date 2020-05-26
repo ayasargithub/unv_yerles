@@ -27,6 +27,7 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = ['ayasarman.pythonanywhere.com',
+'kapella.pythonanywhere.com',
 ]
 
 
