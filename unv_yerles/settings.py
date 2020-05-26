@@ -26,7 +26,10 @@ SECRET_KEY = 'npn&cwjhv(n8kr2wu86m=crax&+%5*pc0(*1r3^%2&o5t7+1tl'
 DEBUG = True
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ayasarman.pythonanywhere.com',
+'https://kapella.pythonanywhere.com',
+'127.0.0.1',
+]
 
 
 
