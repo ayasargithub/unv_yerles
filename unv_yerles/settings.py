@@ -27,9 +27,9 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = ['kapella.pythonanywhere.com',
+                 'http://kapella.pythonanywhere.com',
                  '127.0.0.1',
 ]
-
 
 
 # Application definition
