@@ -130,7 +130,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
+IMPORT_EXPORT_USE_TRANSACTIONS = True
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
